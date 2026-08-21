@@ -1,35 +1,27 @@
-name: FF Sentiment Edge - Hourly Scrape
-
+name: FF Sentiment Edge - 15min Scrape
 on:
   schedule:
-    - cron: '15 * * * *'
+    - cron: '*/15 * * * *'
       timezone: "Asia/Tokyo"
-
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 cloudscraper
-
       - name: Show environment
         run: |
           echo "=========================================="
@@ -41,58 +33,46 @@ jobs:
           python --version
           echo "Files:"
           ls -la
-
       - name: Run scraper
         run: |
           echo "Starting Forex sentiment scraper..."
           python scrape.py
           echo "Scraper finished."
-
       - name: Check data.json
         run: |
           echo "Checking data.json..."
-
           if [ ! -f data.json ]; then
             echo "ERROR: data.json was not generated."
             echo "Current files:"
             ls -la
             exit 1
           fi
-
           echo "SUCCESS: data.json exists."
           echo "File size:"
           ls -lh data.json
-
           echo "data.json:"
           cat data.json
-
       - name: Validate JSON
         run: |
           python - <<'PY'
           import json
-
           with open("data.json", "r", encoding="utf-8") as f:
               data = json.load(f)
-
           print("JSON validation: OK")
           print("JSON type:", type(data).__name__)
-
           if isinstance(data, dict):
               print("Keys:", list(data.keys()))
           elif isinstance(data, list):
               print("Items:", len(data))
           PY
-
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
       - name: Commit changes
         id: commit
         run: |
           git add data.json
-
           if git diff --cached --quiet; then
             echo "No changes detected."
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -101,14 +81,11 @@ jobs:
             git commit -m "Auto-update sentiment data.json"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
       - name: Push changes
         if: steps.commit.outputs.changed == 'true'
         run: |
           git push
-
           echo "Push completed successfully."
-
       - name: Finished
         run: |
           echo "=========================================="
