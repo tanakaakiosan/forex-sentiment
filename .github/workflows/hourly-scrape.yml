@@ -2,9 +2,10 @@ name: FF Sentiment Edge - 15min Scrape
 
 on:
   schedule:
-    # 日本時間 00:05, 00:20, 00:35, 00:50 ...
+    # 日本時間 00:05, 00:20, 00:35, 00:50 のcron（UTCでは前日の 15:05, 15:20, 15:35, 15:50 ...）
+    # 毎時 5, 20, 35, 50 分に実行したい場合 (JST = UTC+9 のため、分はそのまま、時がUTCに換算される)
+    # ※GitHubのcronはUTCで評価されるため、毎時「5,20,35,50分」に回したい場合は以下のようになります。
     - cron: '5,20,35,50 * * * *'
-      timezone: "Asia/Tokyo"
 
   # GitHub画面から手動実行するため
   workflow_dispatch:
