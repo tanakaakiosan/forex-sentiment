@@ -1,0 +1,208 @@
+```yaml
+name: Hourly Forex Scrape
+
+on:
+  # ============================================================
+  # 毎時15分に自動実行
+  # 日本時間（Asia/Tokyo）を明示
+  # ============================================================
+  schedule:
+    - cron: '15 * * * *'
+      timezone: "Asia/Tokyo"
+
+  # GitHub Actions画面から手動実行可能
+  workflow_dispatch:
+
+# ==============================================================
+# GitHub Actionsからリポジトリへ書き込み可能にする
+# ==============================================================
+permissions:
+  contents: write
+
+jobs:
+
+  run-scraper:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # ========================================================
+      # 1. リポジトリを取得
+      # ========================================================
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ========================================================
+      # 2. Pythonをセットアップ
+      # ========================================================
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      # ========================================================
+      # 3. Pythonパッケージをインストール
+      # ========================================================
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+          pip install beautifulsoup4
+          pip install cloudscraper
+
+      # ========================================================
+      # 4. 実行前の確認
+      # ========================================================
+      - name: Show environment
+        run: |
+          echo "=========================================="
+          echo "FF Sentiment Edge - Forex Scraper"
+          echo "=========================================="
+          echo "UTC time:"
+          date -u
+
+          echo "Japan time:"
+          TZ=Asia/Tokyo date
+
+          echo "Python:"
+          python --version
+
+          echo "Working directory:"
+          pwd
+
+          echo "Files:"
+          ls -la
+
+      # ========================================================
+      # 5. スクレイピング実行
+      # ========================================================
+      - name: Run scraper
+        run: |
+          echo "=========================================="
+          echo "Starting Forex sentiment scraper..."
+          echo "=========================================="
+
+          python scrape.py
+
+          echo "=========================================="
+          echo "Scraper finished."
+          echo "=========================================="
+
+      # ========================================================
+      # 6. data.jsonの存在確認
+      # ========================================================
+      - name: Check data.json
+        run: |
+
+          echo "Checking data.json..."
+
+          if [ ! -f data.json ]; then
+            echo "ERROR: data.json was not generated."
+            echo ""
+            echo "Current directory:"
+            pwd
+            echo ""
+            echo "Files:"
+            ls -la
+            exit 1
+          fi
+
+          echo "SUCCESS: data.json exists."
+
+          echo ""
+          echo "File size:"
+          ls -lh data.json
+
+          echo ""
+          echo "data.json contents:"
+          cat data.json
+
+      # ========================================================
+      # 7. JSONの簡易チェック
+      # ========================================================
+      - name: Validate JSON
+        run: |
+
+          echo "Validating data.json..."
+
+          python - <<'PY'
+          import json
+
+          with open("data.json", "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          print("JSON validation: OK")
+          print("JSON type:", type(data).__name__)
+
+          if isinstance(data, dict):
+              print("Keys:", list(data.keys()))
+          elif isinstance(data, list):
+              print("Items:", len(data))
+          PY
+
+      # ========================================================
+      # 8. Git設定
+      # ========================================================
+      - name: Configure Git
+        run: |
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # ========================================================
+      # 9. data.jsonをコミット
+      # ========================================================
+      - name: Commit changes
+        id: commit
+        run: |
+
+          echo "Checking for changes..."
+
+          git add data.json
+
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Changes detected."
+
+            git commit -m "Auto-update sentiment data.json"
+
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # ========================================================
+      # 10. GitHubへPush
+      # ========================================================
+      - name: Push changes
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+
+          echo "Pushing updated data.json..."
+
+          git push
+
+          echo "Push completed successfully."
+
+      # ========================================================
+      # 11. 完了メッセージ
+      # ========================================================
+      - name: Finished
+        run: |
+
+          echo ""
+          echo "=========================================="
+          echo "FF Sentiment Edge scraper completed."
+          echo "=========================================="
+
+          echo "Japan time:"
+          TZ=Asia/Tokyo date
+
+          echo ""
+          echo "data.json:"
+          ls -lh data.json
+```
