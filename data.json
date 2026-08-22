@@ -1,29 +1,29 @@
 {
-    "updated_at": "2026-08-22 14:00:38 UTC",
+    "updated_at": "2026-08-22 14:53:48 UTC",
     "pairs": {
         "Gold/USD": {
             "raw_info": "Gold/USD              53% 83 Traders 74 Traders 47%              47% 13.5 Lots 15.1 Lots 53%  Lots not available for this instrument.    Open"
         },
         "EUR/USD": {
-            "raw_info": "EUR/USD              38% 56 Traders 93 Traders 62%              23% 62.2 Lots 211.4 Lots 77%     Open"
+            "raw_info": "EUR/USD              37% 56 Traders 94 Traders 63%              23% 62.2 Lots 211.6 Lots 77%     Open"
         },
         "GBP/USD": {
-            "raw_info": "GBP/USD              26% 17 Traders 49 Traders 74%              13% 3.9 Lots 25.6 Lots 87%     Open"
+            "raw_info": "GBP/USD              27% 18 Traders 49 Traders 73%              13% 4.0 Lots 25.6 Lots 87%     Open"
         },
         "USD/JPY": {
             "raw_info": "USD/JPY              49% 23 Traders 24 Traders 51%              22% 5.7 Lots 20.5 Lots 78%     Open"
         },
         "USD/CAD": {
-            "raw_info": "USD/CAD              58% 22 Traders 16 Traders 42%              63% 21.2 Lots 12.2 Lots 37%     Open"
+            "raw_info": "USD/CAD              59% 23 Traders 16 Traders 41%              64% 21.6 Lots 12.2 Lots 36%     Open"
         },
         "EUR/GBP": {
-            "raw_info": "EUR/GBP              36% 13 Traders 23 Traders 64%              43% 3.2 Lots 4.2 Lots 57%     Open"
+            "raw_info": "EUR/GBP              35% 13 Traders 24 Traders 65%              43% 3.2 Lots 4.2 Lots 57%     Open"
         },
         "GBP/JPY": {
             "raw_info": "GBP/JPY              58% 21 Traders 15 Traders 42%              18% 7.7 Lots 36.0 Lots 82%     Open"
         },
         "USD/CHF": {
-            "raw_info": "USD/CHF              73% 24 Traders 9 Traders 27%              93% 13.6 Lots 1.1 Lots 7%     Open"
+            "raw_info": "USD/CHF              74% 25 Traders 9 Traders 26%              93% 14.0 Lots 1.1 Lots 7%     Open"
         }
     }
 }
