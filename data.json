@@ -1,26 +1,26 @@
 {
-    "updated_at": "2026-08-31 01:59:36 UTC",
+    "updated_at": "2026-08-31 02:10:50 UTC",
     "pairs": {
         "Gold/USD": {
-            "raw_info": "Gold/USD              57% 112 Traders 84 Traders 43%              51% 9.5 Lots 9.2 Lots 49%  Lots not available for this instrument.    Open"
+            "raw_info": "Gold/USD              55% 102 Traders 82 Traders 45%              51% 10.0 Lots 9.5 Lots 49%  Lots not available for this instrument.    Open"
         },
         "EUR/USD": {
-            "raw_info": "EUR/USD              53% 79 Traders 70 Traders 47%              59% 74.3 Lots 52.6 Lots 41%     Open"
+            "raw_info": "EUR/USD              53% 79 Traders 71 Traders 47%              59% 74.4 Lots 52.6 Lots 41%     Open"
         },
         "GBP/USD": {
             "raw_info": "GBP/USD              48% 37 Traders 40 Traders 52%              29% 6.5 Lots 16.1 Lots 71%     Open"
         },
         "USD/JPY": {
-            "raw_info": "USD/JPY              47% 23 Traders 26 Traders 53%              16% 7.3 Lots 37.6 Lots 84%     Open"
+            "raw_info": "USD/JPY              49% 23 Traders 24 Traders 51%              17% 7.3 Lots 37.0 Lots 83%     Open"
         },
         "AUD/USD": {
-            "raw_info": "AUD/USD              40% 18 Traders 27 Traders 60%              22% 1.6 Lots 5.6 Lots 78%     Open"
+            "raw_info": "AUD/USD              41% 19 Traders 27 Traders 59%              22% 1.6 Lots 5.6 Lots 78%     Open"
         },
         "USD/CAD": {
             "raw_info": "USD/CAD              49% 20 Traders 21 Traders 51%              42% 11.1 Lots 15.5 Lots 58%     Open"
         },
         "GBP/JPY": {
-            "raw_info": "GBP/JPY              59% 23 Traders 16 Traders 41%              69% 28.1 Lots 12.5 Lots 31%     Open"
+            "raw_info": "GBP/JPY              62% 24 Traders 15 Traders 38%              72% 29.4 Lots 11.3 Lots 28%     Open"
         },
         "EUR/GBP": {
             "raw_info": "EUR/GBP              39% 14 Traders 22 Traders 61%              50% 2.7 Lots 2.7 Lots 50%     Open"
