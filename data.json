@@ -1,17 +1,17 @@
 {
-    "updated_at": "2026-08-31 15:50:29 UTC",
+    "updated_at": "2026-08-31 16:02:01 UTC",
     "pairs": {
         "Gold/USD": {
-            "raw_info": "Gold/USD              54% 122 Traders 103 Traders 46%              55% 16.3 Lots 13.4 Lots 45%  Lots not available for this instrument.    Open"
+            "raw_info": "Gold/USD              53% 121 Traders 109 Traders 47%              54% 16.4 Lots 13.8 Lots 46%  Lots not available for this instrument.    Open"
         },
         "EUR/USD": {
-            "raw_info": "EUR/USD              48% 75 Traders 81 Traders 52%              43% 54.3 Lots 72.3 Lots 57%     Open"
+            "raw_info": "EUR/USD              48% 75 Traders 81 Traders 52%              42% 53.8 Lots 73.1 Lots 58%     Open"
         },
         "GBP/USD": {
-            "raw_info": "GBP/USD              47% 42 Traders 47 Traders 53%              27% 8.0 Lots 22.1 Lots 73%     Open"
+            "raw_info": "GBP/USD              48% 43 Traders 47 Traders 52%              31% 9.8 Lots 22.1 Lots 69%     Open"
         },
         "USD/JPY": {
-            "raw_info": "USD/JPY              50% 27 Traders 27 Traders 50%              19% 9.0 Lots 38.8 Lots 81%     Open"
+            "raw_info": "USD/JPY              51% 28 Traders 27 Traders 49%              31% 17.0 Lots 38.8 Lots 69%     Open"
         },
         "AUD/USD": {
             "raw_info": "AUD/USD              42% 22 Traders 30 Traders 58%              35% 3.6 Lots 6.7 Lots 65%     Open"
@@ -20,7 +20,7 @@
             "raw_info": "USD/CAD              48% 23 Traders 25 Traders 52%              46% 14.6 Lots 16.8 Lots 54%     Open"
         },
         "GBP/JPY": {
-            "raw_info": "GBP/JPY              62% 26 Traders 16 Traders 38%              69% 40.0 Lots 17.7 Lots 31%     Open"
+            "raw_info": "GBP/JPY              63% 27 Traders 16 Traders 37%              69% 40.0 Lots 17.7 Lots 31%     Open"
         },
         "AUD/CAD": {
             "raw_info": "AUD/CAD              24% 10 Traders 31 Traders 76%             0% 0.9 Lots 237.1 Lots 100%     Open"
