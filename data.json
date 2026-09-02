@@ -1,26 +1,26 @@
 {
-    "updated_at": "2026-09-02 08:34:40 UTC",
+    "updated_at": "2026-09-02 08:49:07 UTC",
     "pairs": {
         "Gold/USD": {
-            "raw_info": "Gold/USD              53% 117 Traders 104 Traders 47%              45% 18.1 Lots 22.0 Lots 55%  Lots not available for this instrument.    Open"
+            "raw_info": "Gold/USD              52% 114 Traders 107 Traders 48%              45% 18.0 Lots 22.0 Lots 55%  Lots not available for this instrument.    Open"
         },
         "EUR/USD": {
-            "raw_info": "EUR/USD              46% 77 Traders 91 Traders 54%              46% 74.6 Lots 89.3 Lots 54%     Open"
+            "raw_info": "EUR/USD              46% 78 Traders 93 Traders 54%              45% 74.7 Lots 90.5 Lots 55%     Open"
         },
         "GBP/USD": {
-            "raw_info": "GBP/USD              47% 40 Traders 46 Traders 53%              55% 19.7 Lots 16.0 Lots 45%     Open"
-        },
-        "AUD/USD": {
-            "raw_info": "AUD/USD              46% 24 Traders 28 Traders 54%              41% 3.6 Lots 5.2 Lots 59%     Open"
+            "raw_info": "GBP/USD              46% 40 Traders 47 Traders 54%              55% 19.7 Lots 16.0 Lots 45%     Open"
         },
         "USD/JPY": {
-            "raw_info": "USD/JPY              41% 21 Traders 30 Traders 59%              14% 7.0 Lots 42.1 Lots 86%     Open"
+            "raw_info": "USD/JPY              41% 21 Traders 30 Traders 59%              14% 7.0 Lots 43.0 Lots 86%     Open"
+        },
+        "AUD/USD": {
+            "raw_info": "AUD/USD              46% 23 Traders 27 Traders 54%              41% 3.6 Lots 5.1 Lots 59%     Open"
         },
         "USD/CAD": {
             "raw_info": "USD/CAD              64% 30 Traders 17 Traders 36%              41% 12.2 Lots 17.7 Lots 59%     Open"
         },
         "GBP/JPY": {
-            "raw_info": "GBP/JPY              58% 23 Traders 17 Traders 42%              29% 5.2 Lots 12.8 Lots 71%     Open"
+            "raw_info": "GBP/JPY              58% 23 Traders 17 Traders 42%              29% 5.2 Lots 12.9 Lots 71%     Open"
         },
         "EUR/GBP": {
             "raw_info": "EUR/GBP              42% 16 Traders 22 Traders 58%              50% 2.4 Lots 2.4 Lots 50%     Open"
