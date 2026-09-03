@@ -1,29 +1,29 @@
 {
-    "updated_at": "2026-09-03 16:58:12 UTC",
+    "updated_at": "2026-09-03 17:16:07 UTC",
     "pairs": {
         "Gold/USD": {
-            "raw_info": "Gold/USD              56% 128 Traders 100 Traders 44%              36% 14.8 Lots 26.5 Lots 64%  Lots not available for this instrument.    Open"
+            "raw_info": "Gold/USD              56% 126 Traders 99 Traders 44%              36% 14.9 Lots 26.0 Lots 64%  Lots not available for this instrument.    Open"
         },
         "EUR/USD": {
-            "raw_info": "EUR/USD              48% 75 Traders 82 Traders 52%              30% 49.3 Lots 113.1 Lots 70%     Open"
+            "raw_info": "EUR/USD              47% 76 Traders 84 Traders 53%              30% 49.1 Lots 113.9 Lots 70%     Open"
         },
         "GBP/USD": {
-            "raw_info": "GBP/USD              61% 51 Traders 33 Traders 39%              72% 51.7 Lots 20.0 Lots 28%     Open"
-        },
-        "USD/JPY": {
-            "raw_info": "USD/JPY              58% 25 Traders 18 Traders 42%              57% 17.9 Lots 13.3 Lots 43%     Open"
+            "raw_info": "GBP/USD              60% 49 Traders 32 Traders 40%              72% 50.6 Lots 19.7 Lots 28%     Open"
         },
         "USD/CAD": {
-            "raw_info": "USD/CAD              55% 23 Traders 19 Traders 45%              68% 27.4 Lots 13.0 Lots 32%     Open"
+            "raw_info": "USD/CAD              55% 23 Traders 19 Traders 45%              68% 27.6 Lots 13.0 Lots 32%     Open"
+        },
+        "USD/JPY": {
+            "raw_info": "USD/JPY              60% 25 Traders 17 Traders 40%              58% 17.9 Lots 13.2 Lots 42%     Open"
         },
         "AUD/USD": {
             "raw_info": "AUD/USD              39% 16 Traders 25 Traders 61%              14% 1.8 Lots 11.1 Lots 86%     Open"
         },
-        "USD/CHF": {
-            "raw_info": "USD/CHF              50% 17 Traders 17 Traders 50%              86% 10.3 Lots 1.7 Lots 14%     Open"
-        },
         "AUD/CAD": {
             "raw_info": "AUD/CAD              31% 10 Traders 22 Traders 69%              1% 2.0 Lots 238.0 Lots 99%     Open"
+        },
+        "USD/CHF": {
+            "raw_info": "USD/CHF              52% 16 Traders 15 Traders 48%              88% 10.0 Lots 1.4 Lots 12%     Open"
         }
     }
 }
