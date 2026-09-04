@@ -1,11 +1,11 @@
 {
-    "updated_at": "2026-09-04 11:10:36 UTC",
+    "updated_at": "2026-09-04 11:26:42 UTC",
     "pairs": {
         "Gold/USD": {
-            "raw_info": "Gold/USD              57% 142 Traders 105 Traders 43%              53% 14.3 Lots 12.9 Lots 47%  Lots not available for this instrument.    Open"
+            "raw_info": "Gold/USD              56% 134 Traders 106 Traders 44%              53% 15.4 Lots 13.9 Lots 47%  Lots not available for this instrument.    Open"
         },
         "EUR/USD": {
-            "raw_info": "EUR/USD              49% 82 Traders 86 Traders 51%              30% 52.8 Lots 121.4 Lots 70%     Open"
+            "raw_info": "EUR/USD              49% 82 Traders 87 Traders 51%              30% 52.8 Lots 121.4 Lots 70%     Open"
         },
         "GBP/USD": {
             "raw_info": "GBP/USD              51% 43 Traders 41 Traders 49%              51% 19.8 Lots 19.2 Lots 49%     Open"
@@ -14,16 +14,16 @@
             "raw_info": "USD/JPY              73% 33 Traders 12 Traders 27%              47% 18.4 Lots 20.8 Lots 53%     Open"
         },
         "USD/CAD": {
-            "raw_info": "USD/CAD              58% 25 Traders 18 Traders 42%              71% 30.4 Lots 12.7 Lots 29%     Open"
+            "raw_info": "USD/CAD              58% 25 Traders 18 Traders 42%              68% 30.4 Lots 14.5 Lots 32%     Open"
         },
         "AUD/USD": {
             "raw_info": "AUD/USD              44% 18 Traders 23 Traders 56%              21% 3.2 Lots 12.3 Lots 79%     Open"
         },
+        "GBP/JPY": {
+            "raw_info": "GBP/JPY              58% 21 Traders 15 Traders 42%              18% 5.5 Lots 25.5 Lots 82%     Open"
+        },
         "EUR/GBP": {
             "raw_info": "EUR/GBP              43% 15 Traders 20 Traders 57%              39% 2.2 Lots 3.5 Lots 61%     Open"
-        },
-        "GBP/JPY": {
-            "raw_info": "GBP/JPY              60% 21 Traders 14 Traders 40%              18% 5.5 Lots 24.4 Lots 82%     Open"
         }
     }
 }
