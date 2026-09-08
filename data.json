@@ -1,14 +1,14 @@
 {
-    "updated_at": "2026-09-08 10:41:23 UTC",
+    "updated_at": "2026-09-08 10:54:49 UTC",
     "pairs": {
         "Gold/USD": {
-            "raw_info": "Gold/USD              56% 139 Traders 108 Traders 44%              78% 25.7 Lots 7.3 Lots 22%  Lots not available for this instrument.    Open"
+            "raw_info": "Gold/USD              58% 140 Traders 103 Traders 42%              78% 25.9 Lots 7.3 Lots 22%  Lots not available for this instrument.    Open"
         },
         "EUR/USD": {
-            "raw_info": "EUR/USD              50% 82 Traders 82 Traders 50%              38% 59.5 Lots 95.5 Lots 62%     Open"
+            "raw_info": "EUR/USD              49% 81 Traders 83 Traders 51%              38% 59.0 Lots 95.5 Lots 62%     Open"
         },
         "GBP/USD": {
-            "raw_info": "GBP/USD              47% 45 Traders 50 Traders 53%              43% 17.3 Lots 22.7 Lots 57%     Open"
+            "raw_info": "GBP/USD              46% 44 Traders 51 Traders 54%              43% 16.8 Lots 22.7 Lots 57%     Open"
         },
         "USD/CAD": {
             "raw_info": "USD/CAD              47% 20 Traders 23 Traders 53%              61% 26.0 Lots 16.4 Lots 39%     Open"
@@ -17,13 +17,13 @@
             "raw_info": "AUD/USD              39% 16 Traders 25 Traders 61%              16% 2.6 Lots 13.6 Lots 84%     Open"
         },
         "USD/JPY": {
-            "raw_info": "USD/JPY              71% 27 Traders 11 Traders 29%              53% 15.1 Lots 13.3 Lots 47%     Open"
+            "raw_info": "USD/JPY              71% 27 Traders 11 Traders 29%              54% 15.4 Lots 13.3 Lots 46%     Open"
         },
         "GBP/JPY": {
             "raw_info": "GBP/JPY              65% 24 Traders 13 Traders 35%              45% 6.3 Lots 7.6 Lots 55%     Open"
         },
         "AUD/CAD": {
-            "raw_info": "AUD/CAD              35% 13 Traders 24 Traders 65%              9% 23.5 Lots 247.9 Lots 91%     Open"
+            "raw_info": "AUD/CAD              33% 12 Traders 24 Traders 67%              9% 23.5 Lots 247.9 Lots 91%     Open"
         }
     }
 }
