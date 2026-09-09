@@ -1,14 +1,14 @@
 {
-    "updated_at": "2026-09-09 19:18:28 UTC",
+    "updated_at": "2026-09-09 19:31:48 UTC",
     "pairs": {
         "Gold/USD": {
-            "raw_info": "Gold/USD              54% 105 Traders 91 Traders 46%              87% 47.5 Lots 7.4 Lots 13%  Lots not available for this instrument.    Open"
+            "raw_info": "Gold/USD              56% 111 Traders 87 Traders 44%              87% 51.3 Lots 7.5 Lots 13%  Lots not available for this instrument.    Open"
         },
         "EUR/USD": {
-            "raw_info": "EUR/USD              48% 72 Traders 79 Traders 52%              34% 45.4 Lots 86.4 Lots 66%     Open"
+            "raw_info": "EUR/USD              47% 72 Traders 80 Traders 53%              35% 45.4 Lots 86.0 Lots 65%     Open"
         },
         "GBP/USD": {
-            "raw_info": "GBP/USD              45% 39 Traders 48 Traders 55%              18% 5.0 Lots 23.4 Lots 82%     Open"
+            "raw_info": "GBP/USD              46% 39 Traders 45 Traders 54%              19% 5.0 Lots 21.6 Lots 81%     Open"
         },
         "USD/JPY": {
             "raw_info": "USD/JPY              68% 36 Traders 17 Traders 32%              48% 17.2 Lots 19.0 Lots 52%     Open"
