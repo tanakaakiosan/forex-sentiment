@@ -1,26 +1,26 @@
 {
-    "updated_at": "2026-09-16 02:28:09 UTC",
+    "updated_at": "2026-09-16 02:44:36 UTC",
     "pairs": {
         "Gold/USD": {
-            "raw_info": "Gold/USD              52% 106 Traders 99 Traders 48%              38% 10.1 Lots 16.1 Lots 62%  Lots not available for this instrument.    Open"
+            "raw_info": "Gold/USD              55% 110 Traders 91 Traders 45%              47% 12.0 Lots 13.7 Lots 53%  Lots not available for this instrument.    Open"
         },
         "EUR/USD": {
-            "raw_info": "EUR/USD              52% 85 Traders 80 Traders 48%              50% 87.7 Lots 89.2 Lots 50%     Open"
+            "raw_info": "EUR/USD              52% 85 Traders 79 Traders 48%              51% 87.7 Lots 84.3 Lots 49%     Open"
         },
         "GBP/USD": {
-            "raw_info": "GBP/USD              53% 40 Traders 35 Traders 47%              39% 6.2 Lots 9.7 Lots 61%     Open"
+            "raw_info": "GBP/USD              54% 40 Traders 34 Traders 46%              45% 6.2 Lots 7.5 Lots 55%     Open"
         },
         "USD/JPY": {
-            "raw_info": "USD/JPY              59% 34 Traders 24 Traders 41%              16% 7.9 Lots 43.0 Lots 84%     Open"
+            "raw_info": "USD/JPY              59% 35 Traders 24 Traders 41%              16% 8.0 Lots 43.0 Lots 84%     Open"
         },
         "GBP/JPY": {
-            "raw_info": "GBP/JPY              60% 28 Traders 19 Traders 40%              10% 5.1 Lots 46.0 Lots 90%     Open"
+            "raw_info": "GBP/JPY              60% 29 Traders 19 Traders 40%              10% 5.2 Lots 46.0 Lots 90%     Open"
         },
         "USD/CAD": {
             "raw_info": "USD/CAD              44% 19 Traders 24 Traders 56%              15% 5.8 Lots 31.9 Lots 85%     Open"
         },
         "NZD/USD": {
-            "raw_info": "NZD/USD              48% 16 Traders 17 Traders 52%              48% 60.7 Lots 65.1 Lots 52%     Open"
+            "raw_info": "NZD/USD              50% 16 Traders 16 Traders 50%              55% 80.7 Lots 65.1 Lots 45%     Open"
         },
         "USD/CHF": {
             "raw_info": "USD/CHF              48% 15 Traders 16 Traders 52%              48% 3.7 Lots 4.0 Lots 52%     Open"
