@@ -1,17 +1,17 @@
 {
-    "updated_at": "2026-09-17 00:55:13 UTC",
+    "updated_at": "2026-09-17 01:12:04 UTC",
     "pairs": {
         "Gold/USD": {
-            "raw_info": "Gold/USD              58% 105 Traders 75 Traders 42%              30% 9.5 Lots 22.5 Lots 70%  Lots not available for this instrument.    Open"
+            "raw_info": "Gold/USD              58% 101 Traders 72 Traders 42%              28% 8.8 Lots 22.4 Lots 72%  Lots not available for this instrument.    Open"
         },
         "EUR/USD": {
-            "raw_info": "EUR/USD              58% 82 Traders 59 Traders 42%              81% 185.3 Lots 44.4 Lots 19%     Open"
+            "raw_info": "EUR/USD              57% 82 Traders 63 Traders 43%              81% 185.9 Lots 42.3 Lots 19%     Open"
         },
         "GBP/USD": {
-            "raw_info": "GBP/USD              70% 42 Traders 18 Traders 30%              76% 19.5 Lots 6.1 Lots 24%     Open"
+            "raw_info": "GBP/USD              69% 42 Traders 19 Traders 31%              76% 19.7 Lots 6.2 Lots 24%     Open"
         },
         "USD/JPY": {
-            "raw_info": "USD/JPY              65% 35 Traders 19 Traders 35%              14% 7.2 Lots 44.3 Lots 86%     Open"
+            "raw_info": "USD/JPY              64% 35 Traders 20 Traders 36%              14% 7.1 Lots 45.3 Lots 86%     Open"
         },
         "GBP/JPY": {
             "raw_info": "GBP/JPY              69% 29 Traders 13 Traders 31%              23% 5.9 Lots 20.0 Lots 77%     Open"
@@ -23,7 +23,7 @@
             "raw_info": "USD/CAD              50% 17 Traders 17 Traders 50%              15% 5.8 Lots 31.7 Lots 85%     Open"
         },
         "NZD/USD": {
-            "raw_info": "NZD/USD              58% 19 Traders 14 Traders 42%              56% 83.7 Lots 65.8 Lots 44%     Open"
+            "raw_info": "NZD/USD              56% 18 Traders 14 Traders 44%              56% 82.9 Lots 65.8 Lots 44%     Open"
         }
     }
 }
